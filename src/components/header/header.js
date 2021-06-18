@@ -3,9 +3,6 @@ import './header.css'
 
 
 class Header extends React.Component {
-    constructor(props) {
-        super(props);
-    }
     componentDidMount() {
         window.addEventListener('scroll', this.onScroll);
     }
