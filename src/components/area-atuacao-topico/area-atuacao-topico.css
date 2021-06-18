@@ -1,0 +1,27 @@
+.atuacao-direitos-topico {
+    display: flex;
+    flex-direction: column;
+    flex: 32%;
+    padding: 0px 24px 72px 40px;
+}
+.atuacao-direitos-topico > img {
+    width: 48px;
+    height: 48px;
+}
+.atuacao-direitos-topico-titulo {
+    font-family: 'Playfair';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #242C40;
+    padding: 16px 0px;
+}
+.atuacao-direitos-topico-subtitulo {
+    font-family: 'Martel';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #4D556B;
+}

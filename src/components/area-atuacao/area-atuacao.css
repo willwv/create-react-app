@@ -1,0 +1,33 @@
+.atuacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.atuacao-textos {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    align-items: center;
+}
+.atuacao-textos-titulo {
+    font-family: 'Playfair';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 53px;
+    color: #242C40;
+    padding-bottom: 16px;
+}
+.atuacao-direitos {
+    flex-grow: 2;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 24px;
+}
+@media only screen and (max-width: 935px) {
+    .atuacao-textos-titulo{
+        text-align: center;
+        font-size: 32px;
+    }
+}

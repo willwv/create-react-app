@@ -1,0 +1,25 @@
+#inputs {
+    margin: 0px var(--side-columns-width);
+    -webkit-transform: translate(0px,-64%);
+}
+#escritorio {
+    margin: 0px var(--side-columns-width);
+}
+#atendimento {
+    margin: 0px var(--side-columns-width);
+}
+#atuacao {
+    padding-top: 120px;
+}
+#atuacao > .atuacao {
+    background: #F6F3EE;
+    padding: 80px var(--side-columns-width) 330px var(--side-columns-width);
+}
+#sobre {    
+    padding: 0px var(--side-columns-width) 112px var(--side-columns-width);
+    -webkit-transform: translate(0px,-195px);
+}
+#destaques {    
+    padding: 0px var(--side-columns-width);
+    -webkit-transform: translate(0px,-195px);
+}

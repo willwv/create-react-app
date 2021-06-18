@@ -1,0 +1,60 @@
+.atendimento {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.atendimento-imagens{
+    /* padding: 0 0 0 var(--side-columns-width); */
+}
+.atendimento-imagem-senhoras{
+    position: absolute; 
+    -webkit-transform: translate(12%,-8%);
+}
+.atendimento-imagem-senhoras-sombra{
+    /* content:url('images/atendimento/senhoras-sombra.svg'); */
+}
+.atendimento-textos {
+    display: flex;
+    flex-direction: column;
+    padding: 52px 0px 120px 112px;
+}
+.atendimento-textos-titulo {
+    font-family: 'Playfair';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 53px;
+    margin-bottom: 16px;
+}
+.atendimento-textos-linha {
+    width: 28%;
+    height: 2px;
+    background: #A58656;
+}
+.atendimento-textos-descricao {
+    font-family: 'Martel';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    padding-top: 16px;
+    padding-bottom: 48px;
+}
+@media only screen and (max-width: 935px) {
+    .atendimento{
+        flex-direction: column;
+        padding-bottom: unset;
+    }
+    .atendimento-imagem-senhoras{
+        /* content:url('../../images/atendimento/senhoras-mobile.png'); */
+        width: 213px;
+        height: 289px;
+    }
+    .atendimento-imagem-senhoras-sombra{
+        /* content:url('../../images/atendimento/senhoras-sombra-mobile.png'); */
+        width: 213px;
+        height: 289px;
+    }
+    .atendimento-textos{
+        padding: 40px var(--side-columns-width) 88px var(--side-columns-width);
+    }
+}

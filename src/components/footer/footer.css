@@ -1,0 +1,35 @@
+.separator {
+    width: 100%;
+    height: 1px;
+    background-color: #FFFFFF;
+}
+.footer {
+    background-color: #242C40; 
+    width: 100%;
+    font-family: 'Martel'; 
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer > .separator{
+    display: none;
+}
+.footer > .contato-advogada {
+    padding: 12px 0px 12px var(--side-columns-width);
+}
+.copyright {
+    padding: 12px var(--side-columns-width) 12px 0px;
+}
+@media only screen and (max-width: 935px) {
+    .footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer > .separator{
+        display: block;
+    }
+}

@@ -1,0 +1,67 @@
+.header {
+    position: fixed;
+    background-color: transparent; 
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    z-index: 100;
+}
+.header-superior {
+    padding: 6px var(--side-columns-width) 6px var(--side-columns-width); 
+    font-family: 'Martel'; 
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+.header-superior > .contato-advogada{
+    /* display: none; */
+}
+.header-line {
+    width: 100%;
+    height: 1px;
+    background-color: #FFFFFF;
+}
+.header-inferior {
+    padding: 6px var(--side-columns-width) 6px var(--side-columns-width); 
+    font-family: 'Martel'; 
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contato-advogada > span {
+    padding-right: 24px;
+    text-decoration: none;
+}
+.redes-sociais > a > img {
+    padding-left: 24px;
+    cursor: pointer;
+}
+.options > span {
+    padding-left: 24px;
+    cursor: pointer;
+}
+.options-mobile{
+    display: none;
+}
+
+@media only screen and (max-width: 935px) {
+    .header-superior{
+        align-self: flex-end;
+    }
+    .header-superior > .contato-advogada{
+        display: none;
+    }
+    .options{
+        display: none;
+    }
+    .options-mobile{
+        display: block;
+    }
+}
